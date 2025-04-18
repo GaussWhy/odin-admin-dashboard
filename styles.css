@@ -111,4 +111,12 @@ form > input {
 .sidebar-row-1 > svg, .sidebar-row-2 > div > svg, .sidebar-row-3 > div > svg {
     height: 25px;
     width: 25px;
+    margin-right: 1vw;
+    margin-left: 1vw;
+}
+
+.sidebar {
+    display: grid;
+    grid-template-rows: 1fr 2fr 2fr;
+    grid-gap: 5vh;
 }
