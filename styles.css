@@ -188,14 +188,23 @@ form > input {
 .trending {
     grid-column: 3 / 4;
     border: 3px solid cyan;
+    display: grid;
+    grid-template-columns: 1fr 2fr;
+    justify-items: end;
+    align-items: center;
+    gap: 15px;
 }
 
-.trending > div > svg, .trending > div > div > svg {
-    height: 25px;
-    width: 25px;
+.trending > div > svg {
+    height: 50px;
+    width: 50px;
 }
 
-.trending-div {
-    display: flex;
-    justify-content: space-evenly;
+.trending-h2 {
+    grid-column: 3 / 4;
 }
+
+.user1, .user2, .user3, .user4 {
+    justify-self: start;
+}
+
