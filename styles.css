@@ -33,6 +33,13 @@ form > svg, .header-row-1 > svg, .header-row-2 > svg {
     width: 25px;
     border: 2px solid black;
 }
+
+.project-svg > svg {
+    height: 25px;
+    width: 25px;
+    margin-right: 1vw;
+}
+
 /* New stuff */
 .header {
     display: grid;
@@ -215,4 +222,14 @@ form > input {
 
 .project-span, .announcement-span {
     font-weight: bold;
+}
+
+.project-div {
+    display: flex;
+    flex-direction: column;
+}
+
+.project-svg {
+    align-self: flex-end;
+    margin-top: 2vh;
 }
